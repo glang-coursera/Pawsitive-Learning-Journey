@@ -357,6 +357,7 @@ function App() {
                   level={progress.mascotLevel} 
                   bonesCount={progress.food}
                   className="scale-125"
+                  isLevelUp={true}
                 />
              </div>
 

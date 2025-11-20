@@ -13,17 +13,23 @@ interface MascotProps {
   level?: 1 | 2 | 3; // 1=Baby, 2=Teen, 3=Adult
   bonesCount?: number;
   className?: string;
+  isLevelUp?: boolean;
 }
 
-export const Mascot: React.FC<MascotProps> = ({ mood, petType = 'dog', level = 1, bonesCount = 0, className = '' }) => {
+export const Mascot: React.FC<MascotProps> = ({ mood, petType = 'dog', level = 1, bonesCount = 0, className = '', isLevelUp = false}) => {
   
   // --- LOGIC ---
   // Default to initial
   let imageSrc = IMG_INITIAL;
   let bubbleText = "Ready to learn! 🦴";
 
+  // Level up bypass all states
+  if (isLevelUp) {
+    imageSrc = IMG_INITIAL;
+    bubbleText = "Amazing work! Let's keep going! 🎉";
+  }
   // 1. Eating State (Highest Priority)
-  if (mood === 'eating') {
+  else if (mood === 'eating') {
     imageSrc = IMG_EAT_FOOD;
     bubbleText = "Yum! Tastes great! 🍖";
   } 
