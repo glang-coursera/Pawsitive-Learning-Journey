@@ -23,7 +23,7 @@ Use this workflow to experience the full "Learn-to-Earn" loop.
 
 ### 1. The "Curation Builder" Setup
 Instead of browsing a catalog, you build your own path.
-*   **Market Path:** Enter "Digital Marketing" or "Market" as your goal.
+*   **Market Path:** Enter "Digital Marketing" or "Market" as your goal and state your professional background.
     *   *Result:* The app simulates the **Curation Builder**, generating a structured "Generative AI Content Creation" certification.
 *   **Data Path:** Enter "Data Scientist" as your goal.
     *   *Result:* The app generates a deep-dive technical curriculum for Data Science.
