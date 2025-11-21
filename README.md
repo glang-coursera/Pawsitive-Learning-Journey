@@ -1,7 +1,4 @@
 # Pawsitive Learning Journey 🐶🎓
-
-**[Link to Working Prototype]**
-
 **Pawsitive Learning Journey** is an AI-powered learning platform designed to build a deep **emotional connection** between the learner and their goals. By pairing professional curriculum generation with a virtual companion that relies on your study consistency for care, the app fosters a unique sense of **responsibility and achievement**. Your continuous learning directly impacts your companion's well-being, transforming daily study habits into a rewarding, shared journey.
 
 ---
